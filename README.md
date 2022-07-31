@@ -1,4 +1,4 @@
-# local_database1_project
+# local_database_project_flutter
 
 A new Flutter project.
 
