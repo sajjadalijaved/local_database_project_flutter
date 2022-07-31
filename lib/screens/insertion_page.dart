@@ -30,6 +30,7 @@ class InsertionPage extends StatelessWidget {
                 SizedBox(
                   height: height * .12,
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     controller: textEditingControllerRollNo,
                     decoration: InputDecoration(
                         labelText: 'RollNo',
@@ -68,6 +69,7 @@ class InsertionPage extends StatelessWidget {
                 SizedBox(
                   height: height * .12,
                   child: TextField(
+                    keyboardType: TextInputType.emailAddress,
                     controller: textEditingControllerEmail,
                     decoration: InputDecoration(
                         labelText: 'Email',

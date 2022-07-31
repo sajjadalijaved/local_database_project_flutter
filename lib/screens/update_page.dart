@@ -49,6 +49,7 @@ class UpdatePage extends StatelessWidget {
               SizedBox(
                 height: height * .12,
                 child: TextField(
+                  keyboardType:TextInputType.emailAddress,
                   controller: textEditingControllerEmail,
                   decoration: InputDecoration(
                       labelText: 'Email',
